@@ -6,7 +6,7 @@ a:	DD W 4
 b:	DD W 5
 
 -- Unterpogramm mul(a, b)
--- Berechne a*b rekursiv: mul(a,b) = a * mul(a, b-1)
+-- Berechne a*b rekursiv: mul(a,b) = a + mul(a, b-1)
 
 mul:
 	PUSHR			-- Sichere Register
